@@ -77,7 +77,7 @@ public class ExerciciosJava {
         double nota3 = entrada.nextDouble();
 
         // Chama o método e guarda o resultado
-        double media = calcularMedia(nota1, nota2, nota3);
+       double media = Math.round(calcularMedia(nota1, nota2, nota3));
 
         System.out.println("Média: " + media);
     }
